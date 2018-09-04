@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700|Roboto:300,400,500,700');
+
+
+
+
+/*Nav Bar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* Homepage */
+
+.pale-home {
+    height: 100vh;
+    background-color: #fafafa;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
