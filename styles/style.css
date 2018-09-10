@@ -10,7 +10,7 @@
 
 .pale-home {
     height: 100vh;
-    background-color: #1f1f1f;
+    background: url(../Image/palebk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,3 +21,59 @@
     position: relative;
 }
 
+/* NavBar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    border: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.nav-item {
+    font-family: "exo", sans-srif;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 4em;
+}
+
+@media (min-width: 768px) {
+   
+   
+    .navbar-nav {
+    float: none;
+    }
+}
