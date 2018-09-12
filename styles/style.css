@@ -9,7 +9,7 @@
 /* Homepage */
 
 .pale-home {
-    height: 100vh;
+    height: 75vh;
     background: url(../Image/palebk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -31,6 +31,11 @@
     width: 100%;
     z-index: 1;
     border: 0;
+}
+
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.67);
+    border-color: #080808;
 }
 
 .navbar-nav {
@@ -57,6 +62,11 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    
 }
 
 .navbar li a:hover {
@@ -68,7 +78,52 @@
     font-weight: 600;
     font-size: 17px;
     padding: 0 4em;
+    color: #fafafa
 }
+
+
+/*Footer*/
+
+.pale-footer {
+    background-color: #222222;
+    color: #fafafa;
+    min-height: 90px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding-top: 14px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 3px;
+    text-align: center;
+    color: #e2e0dd;
+    background: rgba(143, 143, 143, 0.25);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgba(143, 143, 143, 1);
+}
+
+#pale-footer-container {
+    padding: 0;
+}
+
+/*MEDIA*/
 
 @media (min-width: 768px) {
    
@@ -77,3 +132,5 @@
     float: none;
     }
 }
+
+
