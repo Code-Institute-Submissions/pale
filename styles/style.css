@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700|Roboto:300,400,500,700|Overpass+Mono:300,400,600,700');
 
-
-
-
-/*Nav Bar */
-
-/* Homepage */
-
-.pale-home {
-    height: 75vh;
-    background: url(../Image/palebk.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
 /* NavBar */
 
 .navbar {
@@ -67,9 +47,6 @@
     background-color: white;
 }
 
-
-
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -104,25 +81,57 @@
     color: #fafafa
 }
 
-/* Home */
+/* Homepage */
+
+.pale-home {
+    height: 75vh;
+    background: url(../Image/palebk.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* About Jumbotron */
 
 .pale-body {
-    background-color: #000000;
     text-align: center;
 }
 
 .pale-logo {
     color: #9c9c9c !important;
     font-family: 'Overpass Mono', monospace;
-    font-weight: 400 ;
+    font-weight: 400;
 }
 
 .pale-about {
     color: #9c9c9c !important;
     font-family: 'Overpass Mono', monospace;
-    font-weight: 200;
+    font-weight: 300;
 }
 
+/* About Tarot Cards */
+
+.about-artwork {
+    padding: 0;
+}
+
+.pale-tarot {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace; 
+}
+
+.album-title {
+    font-weight: 400;
+}
+
+.album-date {
+    font-weight: 300;
+}
 
 /*Footer*/
 
