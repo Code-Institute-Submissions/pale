@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700|Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700|Roboto:300,400,500,700|Overpass+Mono:300,400,600,700');
 
 
 
@@ -24,7 +24,6 @@
 
 .navbar {
     margin-bottom: 0;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,6 +47,10 @@
     padding: 9px 0px;
 }
 
+.pale-icon {
+    background-color: #797979 !important;
+}
+
 .navbar-default .navbar-collapse {
     border-color: transparent;
 }
@@ -63,6 +66,8 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
 }
+
+
 
 
 .navbar ul {
@@ -97,6 +102,25 @@
     font-size: 17px;
     padding: 0 4em;
     color: #fafafa
+}
+
+/* Home */
+
+.pale-body {
+    background-color: #000000;
+    text-align: center;
+}
+
+.pale-logo {
+    color: #9c9c9c !important;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 400 ;
+}
+
+.pale-about {
+    color: #9c9c9c !important;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 200;
 }
 
 
