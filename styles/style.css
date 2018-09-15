@@ -81,11 +81,27 @@
     color: #fafafa
 }
 
+/* BG colors */
+
+.pale-body-bg {
+    background-color: #282828;
+}
+
+/* Breaks */
+
+.pale-break {
+    width: 95px;
+    height: 3px;
+    border: 0;
+    background-color: #444;
+}
+
+
 /* Homepage */
 
 .pale-home {
-    height: 75vh;
-    background: url(../Image/palebk.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background: url(../Image/4banner.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -101,6 +117,8 @@
 .pale-body {
     text-align: center;
 }
+
+.pale-lander
 
 .pale-logo {
     color: #9c9c9c !important;
@@ -123,6 +141,7 @@
 .pale-tarot {
     text-align: center;
     font-family: 'Overpass Mono', monospace; 
+    color: #9c9c9c !important;
 }
 
 .album-title {
