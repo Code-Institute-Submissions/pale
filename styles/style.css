@@ -89,6 +89,7 @@
 
 .pale-body-bg {
     background-color: #282828;
+    min-height: 100vh;
 }
 
 /* Breaks */
