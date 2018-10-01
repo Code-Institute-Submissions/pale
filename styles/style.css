@@ -198,6 +198,11 @@
     padding-bottom: 1em;
 }
 
+.member-img {
+    height: 250px;
+    width: 250px;
+}
+
 /* MEDIA */
 
 .pale-player {}
