@@ -1,13 +1,10 @@
 # Pale
 
-A website for my own band "pale".
+A website for my band "pale".
 
-This is a hub for all things going on with pale and is to be used as a major part of our branding. Use of monochrome and monospace to portay the sorrow in our music as a website. 
+This is a hub for all things going on with pale and is to be used as a major part of our branding. Use of monochrome and monospace to portay the themes that are in our music on our website
 
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Pale itself is still within its forming peorid of time, we have written 4, 4 track eps which form one album, or cycle, and are about to head into the studio to record. We are building up a portfolio of all forms of media (artwork, videos, photoshoots, music), and the website will evolve with our progress.
  
 ## UX
 
@@ -18,52 +15,39 @@ The users can be broken down into 3 major groups, Potential fans, Loyal fans and
 User Stories:
 
 User 1
-Potential fan Saw us at a live show and wanted to check out music to share on his social media. Found the website through a social media link. Short attention span so the first image would need to be striking. Goes straight to "media," and watches half the video, wants to leave with some content remember us by.
+Potential fan Saw us at a live show and wanted to check out music to share on his social media. Found the website through a social media link. Short attention span so the first image would need to be striking. Watches half the video, wants to leave with some content to remember us by.
 
 User 2
-Promoter. Wants to find band information and contact details. Heads straight to About, and needs quick access to contact information (Footer)
+Promoter. Wants to find band information and contact details. Needs quick access to contact information
 
 User 3
-Loyal Fan. Looking for to play music so he can engage with us. More likely to spend longer on the website, (Artwork if it works)
+Loyal Fan. Looking for to play music so he can engage with us. Likely to spend longer than any other user on the website.
 
 To faciatate all different user types the website needs to have a clear easy to use navbar, strong imagery and access to music/video. 
 
-In design terms, pale protrays sorrow in its music and how we present ourselves, and this is a key elemnt in the design process. We have choosen to have no logo, and use a strong monospaced font throughout the page, using blacks and greys to create space around the artowrk.
+In design terms, pale portrays sorrow in its music and how we present ourselves, and this is a key elemnt in the design process. We have choosen to have no logo, and use a strong monospaced font throughout the page, using blacks and greys to create space around the artowrk.
 
-*ADD WIREFRAME FOLDER*
-
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Inside the wireframe folder there is a seperate wireframe for each page, including the basic navbar and social media links on every page.
 
 ## Features
 
-navbar
-
-video lander
-
-music downloads
-
-about
-
-gigs
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Navbar - Fixed top navbav so the user has access to all pages of the website. Upon collapse this falls into a simple dropdown menu.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Video Lander - Autoplaying muted video upon landing on index page. This is to draw the eye yet be non intrustive via being muted.
+
+Music Player - Within the Media page there are playable songs with the option to download. No autoplay to let the user define their own experience 
+
+Footer - At the bottom of every page so users can direct to social media with ease
+
+Gigs - Upcoming gigs including location, time and a link to purchase tickets
 
 ### Features Left to Implement
-- Another feature idea
+
+Artwork - Within the media page a dedicated artwork section (Each song in cycle 1 has its own piece of artwork)
+
+Mailing List
 
 ## Technologies Used
 
