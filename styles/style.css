@@ -112,8 +112,6 @@
 
 /* Homepage-lander */
 
-
-
 .pale-home {
     height: 90vh;
     /* background: url(../Image/4banner.png) no-repeat center center fixed; */
@@ -128,20 +126,23 @@
 }
 
 .video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
 }
 
 .video-foreground,
 .video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 
 /* Homepage */
@@ -201,52 +202,22 @@
 .member-img {
     height: 250px;
     width: 250px;
+    border-radius: 2px;
+    -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* MEDIA */
 
-.pale-player {}
+/* .song-artwork {
+    width: 100%;
+} */
 
 .row-no-margin {
     margin: 0;
 }
 
-/* UNDERLINE HOVER (NOT CURRENTLY WORKING, NON VITAL)
-
-.hvr-underline-reveal {
-    display: block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-}
-
-.hvr-underline-reveal:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #9c9c9c;
-    height: 4px;
-    -webkit-transform: translateY(4px);
-    transform: translateY(4px);
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.hvr-underline-reveal:hover:before,
-.hvr-underline-reveal:focus:before,
-.hvr-underline-reveal:active:before {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
-*/
 /*Footer*/
 
 .pale-footer {
@@ -294,9 +265,16 @@
 /*MEDIA*/
 
 @media (min-width: 768px) {
-
-
     .navbar-nav {
         float: none;
     }
+}
+
+
+@media (max-width: 365px) {
+
+    .song-artwork {
+        width: 100%;
+    }
+
 }
