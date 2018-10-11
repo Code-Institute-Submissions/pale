@@ -35,18 +35,28 @@
         <br>
         <br>
         <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="pale-body">
-                        <h1>pale</h1>
-                        <hr class="pale-break">
-                        <p>All enquires directed to: <br>
-                        <h2>Palebandofficial@gmail.com</p></h2>
+        <div class="container-fluid pale-body">
+            
+            <div class="col-md-offset-4 col-md-4">
+                <h1>pale</h1>
+                <p>contact/enquiries via form below</p>
+                <hr class="pale-break" style="margin-top:30px;">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address<span class="formRequired small">*</span></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="contactName">Name</label>
+                        <input type="text" class="form-control" id="contactName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message<span class="formRequired small">*</span></label>
+                        <textarea class="form-control" rows="8" id="contactMessage" placeholder="Message" required=""></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
-        </div>
         </div>
     </div>
 
