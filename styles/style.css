@@ -125,6 +125,19 @@
     position: relative;
 }
 
+.pale-home2 {
+    height: 90vh;
+     background: url(../Image/4banner.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .video-background {
     background: #000;
     position: fixed;
