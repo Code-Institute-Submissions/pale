@@ -111,6 +111,11 @@ Footer:
 3. Repeat process with youtube and instrgram links.
 4. Repeat steps 1-3 on all pages.
 
+Responsive Design:
+
+As I have used the Bootstrap grid system throughout this process, I have been able to approach the website with a mobile first UX in mind. However this did also come with some issues, mostly images breaking the breakpoints while stacking up.
+To get around this, I used the Responsive tool within Google dev tools to collapse my website to as low as 320px and make sure the images didn't push the website beyond its width.
+
 ## Deployment
 
 I used github through the dev process, and have pushed it using GitHub Pages. I have pushed it using the master branch.
