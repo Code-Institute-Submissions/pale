@@ -85,6 +85,10 @@
     color: #fafafa
 }
 
+.collapse-bg {
+    background-color: rgba(34, 34, 34, 0.45)
+}
+
 /* BG colors */
 
 .pale-body-bg {
