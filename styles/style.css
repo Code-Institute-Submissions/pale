@@ -232,6 +232,10 @@
     width: 100%;
 } */
 
+.artwork-holder {
+    text-decoration: underline;
+}
+
 .row-no-margin {
     margin: 0;
 }
